@@ -25,6 +25,6 @@ Create a connect app, and use this as the session store.
 
 You can pass options into the call to `new nStoreSession({})`.
 
- - **maxAge** - When the nStore database is compacted, any sessions with older than maxAge (in ms) will be pruned. Defaults to 1 hour.
+ - **maxAge** - When the nStore database is compacted, any sessions last accessed more than `maxAge` ago (in ms) will be pruned. Defaults to 1 hour.
  - **dbFile** - Where to store the nStore database, defaults to "sessions.db" in the current directory.
  
