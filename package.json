@@ -9,5 +9,8 @@
         "type" : "git",
         "url" : "http://github.com/creationix/nstore-session.git"
     },
+    "dependencies" : {
+        "nStore" : ">=0.2.1"
+    },
     "engine" : ["node >=0.1.100"]
 }
