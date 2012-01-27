@@ -2,15 +2,13 @@
     "name" : "nStoreSession",
     "version" : "0.0.22",
     "description" : "Connect session store using nStore",
-    "modules" : {
-        "index" : "./lib/nstore-session"
-    },
+    "index" : "./lib/nstore-session",
     "repository" : {
         "type" : "git",
         "url" : "http://github.com/creationix/nstore-session.git"
     },
     "dependencies" : {
-        "nStore" : ">=0.2.1"
+        "nstore" : ">=0.5.1"
     },
     "engine" : ["node >=0.1.100"]
 }
