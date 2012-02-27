@@ -1,6 +1,6 @@
 {
     "name" : "nStoreSession",
-    "version" : "0.0.22",
+    "version" : "0.0.23",
     "description" : "Connect session store using nStore",
     "index" : "./lib/nstore-session",
     "repository" : {
